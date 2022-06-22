@@ -1,0 +1,18 @@
+.search{
+    max-width:  1020px; 
+    margin: 0 auto 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    &-form{
+        input{
+        height: 2rem;
+        padding: .5rem;
+        color: #009CF1;
+        font-family: 'Sawarabi Gothic', sans-serif;
+    
+        }
+    }
+}

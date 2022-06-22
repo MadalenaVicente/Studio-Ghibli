@@ -1,0 +1,98 @@
+.film{
+    max-width: 1020px; 
+    height: calc(100%/2);
+    
+    @media (max-width: 577px) {
+        width: 100%;
+    }
+    
+    &-container{
+        margin: 0 0 0 2rem;
+        padding: 2rem 2rem 0 2rem ;
+        display: flex;
+        justify-content: space-between;
+        color: #009CF1;
+        font-size: .5rem;
+        align-items: center;
+        @media (max-width: 577px){
+            font-size: .5rem;
+        } 
+
+        h1{ 
+            font-size: 5rem;
+            @media (max-width: 577px){
+                font-size: 2rem;
+            }
+        }
+
+        h2{
+            font-size: 3rem;
+            @media (max-width: 577px){
+                font-size: 1.5rem;
+            }  
+        }
+
+
+        }  
+        
+        &-titles{
+            align-items: center;
+
+            
+        }
+
+        &-infos{
+            padding: 2rem 2.3rem 0 2rem ;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5rem;
+
+            @media (max-width: 577px){
+                
+                font-size: 1rem;
+            } 
+            
+            &-diretor{
+                padding: 0rem .5rem 0 0rem ;
+            }
+            &-producer{
+                padding: 0rem .5rem 0 0rem ;
+            }
+            &-time{
+                padding: 0rem .5rem 0 0rem ;
+            }
+            
+        }
+
+        &-aside-right{
+            align-items: flex-end;
+
+            @media (max-width: 577px){
+                align-items:flex-start;
+             }  
+
+            img{
+                padding: 0 3rem 0 0;
+                 display: block;
+                 width: 60rem;
+                 height: auto;
+                
+              }   
+        }
+
+        &-aside-left{
+            align-items: center;
+        }
+
+                
+
+                &-aside-middle{
+                    color: #009CF1;
+                    padding: 2rem 2rem 0 2rem ;
+                    font-size: 1.5rem; 
+
+                    @media (max-width: 577px){
+                        font-size: 1rem;
+                     }  
+                }
+    }
